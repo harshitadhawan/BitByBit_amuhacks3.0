@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "leafdiseasewin/1.0.0": {
+        "runtime": {
+          "leafdiseasewin.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "leafdiseasewin/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
