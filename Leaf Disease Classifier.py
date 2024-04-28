@@ -77,7 +77,9 @@ class SelectionForm(tk.Toplevel):
         self.process_image(r"D:\leaf disease\cotton\cotton_model", class_labels)
 
     def open_mango(self):
-        messagebox.showinfo('Box',"Select an image of mango leaf")  
+        messagebox.showinfo('Box',"Select an image of mango leaf") 
+        class_labels = {0:'Anthracnose',1: 'Bacterial Canker', 2: 'Cutting Weevi', 3:'Die Back', 4:'Gall Midge',5: 'Healthy',6: 'Powdery Mildew',7: 'Sooty Mould'}
+        self.process_image(r"D:\leaf disease\tomato\tomato_model", class_labels)
 
     def open_tom(self):
         messagebox.showinfo('Box',"Select an image of tomato leaf") 
